@@ -1,4 +1,4 @@
-import 'package:flutter_favorite/ui/shared/size_fit.dart';
+import 'package:flutter_favorite/ui/common/size_fit.dart';
 
 extension DoubleFit on double {
 

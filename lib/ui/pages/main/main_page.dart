@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_favorite/ui/pages/favorite/favorite_page.dart';
 import 'package:flutter_favorite/ui/pages/home/home_page.dart';
-import 'package:flutter_favorite/ui/shared/size_fit.dart';
+import 'package:flutter_favorite/ui/common/size_fit.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({Key? key}) : super(key: key);

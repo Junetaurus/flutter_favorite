@@ -1,9 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_favorite/core/router/route.dart';
-import 'package:flutter_favorite/ui/shared/app_theme.dart';
+import 'package:flutter_favorite/core/models/meal_model.dart';
+import 'package:flutter_favorite/core/routes/route.dart';
+import 'package:flutter_favorite/core/states/favorite_state.dart';
+import 'package:flutter_favorite/ui/common/app_theme.dart';
+import 'package:provider/provider.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    MultiProvider(
+        providers: [
+          ChangeNotifierProvider(create: (ctx) => FavoriteState()),
+        ],
+      child: const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {

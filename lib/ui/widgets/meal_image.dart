@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_favorite/core/extension/int_extension.dart';
+import 'package:flutter_favorite/core/extensions/int_extension.dart';
 
 class MealImage extends StatelessWidget {
 

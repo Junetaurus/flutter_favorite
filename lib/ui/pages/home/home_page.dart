@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_favorite/core/extension/int_extension.dart';
+import 'package:flutter_favorite/core/extensions/int_extension.dart';
 import 'package:flutter_favorite/core/services/json_parse.dart';
-import 'package:flutter_favorite/core/model/category_model.dart';
+import 'package:flutter_favorite/core/models/category_model.dart';
 import 'package:flutter_favorite/ui/pages/meal/meal_page.dart';
 
 class HomePage extends StatefulWidget {

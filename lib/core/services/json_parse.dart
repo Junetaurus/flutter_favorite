@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/services.dart';
-import 'package:flutter_favorite/core/model/category_model.dart';
-import 'package:flutter_favorite/core/model/meal_model.dart';
+import 'package:flutter_favorite/core/models/category_model.dart';
+import 'package:flutter_favorite/core/models/meal_model.dart';
 
 class JsonParse {
   static Future<List<CategoryModel>> getCategoryData() async {

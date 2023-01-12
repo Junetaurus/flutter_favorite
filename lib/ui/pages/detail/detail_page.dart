@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_favorite/core/extension/int_extension.dart';
-import 'package:flutter_favorite/core/model/meal_model.dart';
-import 'package:flutter_favorite/ui/shared/size_fit.dart';
+import 'package:flutter_favorite/core/extensions/int_extension.dart';
+import 'package:flutter_favorite/core/models/meal_model.dart';
+import 'package:flutter_favorite/ui/common/size_fit.dart';
 import 'package:flutter_favorite/ui/widgets/meal_image.dart';
 
 class DetailPage extends StatefulWidget {
